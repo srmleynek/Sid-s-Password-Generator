@@ -55,6 +55,14 @@ function getPasswordOptions() {
     return passwordOptions;
 }
 
+function getRandom(arr) {
+    var randIndex = Math.floor(Math.random() * arr.length);
+    var randElement = arr[randIndex];
+  
+    return randElement;
+}
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
   
